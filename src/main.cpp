@@ -22,7 +22,7 @@
 #endif
 
 
-#define MAX_DISTANCE 400
+#define MAX_DISTANCE 300
 const int ECO = 26, TRIGGER =27, INP =14, CH1=21, CH2=22, LED=2;
 const int MAX=30, MIN=10;
 float dnt, dnt2=0;
