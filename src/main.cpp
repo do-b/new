@@ -257,6 +257,10 @@ void webSocketEvent(uint8_t num, WStype_t type, uint8_t *payload, size_t length)
     if (refresh_status == 1)
     {
       send_sensor();
+      digitalWrite(LED, HIGH);
+      delay(500);
+      digitalWrite(LED, LOW);
+      delay(500);
     }
     break;
   }
